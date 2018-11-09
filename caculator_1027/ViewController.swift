@@ -45,6 +45,9 @@ class ViewController: UIViewController {
     @IBAction func button0(_ sender: Any) {
         result.text = result.text!+"0"
     }
+    @IBAction func button(_ sender: Any) {
+        result.text = result.text!+"."
+    }
     @IBAction func buttonadd(_ sender: Any) {
         operatorFlag = 1
         temp = Double(result.text!)!

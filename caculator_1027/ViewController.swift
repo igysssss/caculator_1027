@@ -73,6 +73,10 @@ class ViewController: UIViewController {
         result.text = ""
         
     }
+    @IBAction func buttonhundred(_ sender: Any) {
+        
+        
+    }
     @IBAction func buttonresult(_ sender: Any) {
         if operatorFlag == 1
         {
@@ -98,7 +102,11 @@ class ViewController: UIViewController {
             temp = temp / Double(result.text!)!
             result.text = "\(temp)"        }
         
+        
+        
+        
     }
+    
     @IBAction func buttonAC(_ sender: Any) {
         result.text = ""
     }

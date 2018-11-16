@@ -50,26 +50,30 @@ class ViewController: UIViewController {
     }
     @IBAction func buttonadd(_ sender: Any) {
         operatorFlag = 1
-        temp = Double(result.text!)!
+        temp = temp+Double(result.text!)!
         result.text = ""
+        
+        
         
     }
     @IBAction func buttonsub(_ sender: Any) {
         operatorFlag = 2
-        temp = Double(result.text!)!
+        temp = temp-Double(result.text!)!
         result.text = ""
         
     }
     @IBAction func buttondiv(_ sender: Any) {
         operatorFlag = 3
-        temp = Double(result.text!)!
+        temp=1
+        temp = temp*Double(result.text!)!
         result.text = ""
         
        
     }
     @IBAction func buttonmul(_ sender: Any) {
         operatorFlag = 4
-        temp = Double(result.text!)!
+        temp=1
+        temp = temp/Double(result.text!)!
         result.text = ""
         
     }
@@ -103,12 +107,13 @@ class ViewController: UIViewController {
             result.text = "\(temp)"        }
         
         
-        
+        temp=0
         
     }
     
     @IBAction func buttonAC(_ sender: Any) {
         result.text = ""
+        temp=0
     }
     override func viewDidLoad() {
         super.viewDidLoad()

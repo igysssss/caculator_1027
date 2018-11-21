@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     var temp:Double = 0
     var operatorFlag = 0
+    var temp1:Double = 1
+
 
     @IBOutlet weak var result: UITextField!
     
@@ -58,13 +60,14 @@ class ViewController: UIViewController {
     }
     @IBAction func buttonsub(_ sender: Any) {
         operatorFlag = 2
-        temp = temp-Double(result.text!)!
+        temp = Double(result.text!)!
+        temp1 = temp-Double(result.text!)!
         result.text = ""
         
     }
     @IBAction func buttondiv(_ sender: Any) {
         operatorFlag = 3
-        temp=1
+        
         temp = temp*Double(result.text!)!
         result.text = ""
         
@@ -72,7 +75,7 @@ class ViewController: UIViewController {
     }
     @IBAction func buttonmul(_ sender: Any) {
         operatorFlag = 4
-        temp=1
+        
         temp = temp/Double(result.text!)!
         result.text = ""
         

@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var temp:Double = 0
     var operatorFlag = 0
     var temp1:Double = 1
+    
 
 
     @IBOutlet weak var result: UITextField!
@@ -60,26 +61,35 @@ class ViewController: UIViewController {
     }
     @IBAction func buttonsub(_ sender: Any) {
         operatorFlag = 2
-        temp = Double(result.text!)!
-        temp1 = temp-Double(result.text!)!
+        if(temp==0){
+        temp1 = Double(result.text!)!
+            temp = 1 }
+        else{
+            temp1=temp1-Double(result.text!)!
+        }
         result.text = ""
         
     }
     @IBAction func buttondiv(_ sender: Any) {
         operatorFlag = 3
         
-        temp = temp*Double(result.text!)!
+        temp1 = temp1*Double(result.text!)!
         result.text = ""
         
        
     }
     @IBAction func buttonmul(_ sender: Any) {
         operatorFlag = 4
-        
-        temp = temp/Double(result.text!)!
+        if(temp==0){
+            temp1 = Double(result.text!)!
+            temp = 1}
+        else{
+            temp1=temp1/Double(result.text!)!
+        }
         result.text = ""
-        
     }
+        
+    
     @IBAction func buttonhundred(_ sender: Any) {
         
         
@@ -95,19 +105,24 @@ class ViewController: UIViewController {
         if operatorFlag == 2
         {
             
-            temp = temp - Double(result.text!)!
-            result.text = "\(temp)"        }
+            temp1 = temp1 - Double(result.text!)!
+            result.text = "\(temp1)"
+            temp1=0
+        }
         
         if operatorFlag == 3
         {
             
-            temp = temp * Double(result.text!)!
-            result.text = "\(temp)"        }
+            temp1 = temp1 * Double(result.text!)!
+            result.text = "\(temp1)"
+            temp1=1
+        }
         if operatorFlag == 4
         {
             
-            temp = temp / Double(result.text!)!
-            result.text = "\(temp)"        }
+            temp1 = temp1 / Double(result.text!)!
+            result.text = "\(temp1)"        }
+        temp1=1
         
         
         temp=0

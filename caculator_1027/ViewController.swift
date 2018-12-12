@@ -15,7 +15,9 @@ class ViewController: UIViewController {
     
 
 
+    
     @IBOutlet weak var result: UITextField!
+    @IBOutlet var result2: UIView!
     
     @IBAction func button1(_ sender: Any) {
         result.text = result.text!+"1"

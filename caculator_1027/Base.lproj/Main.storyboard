@@ -223,7 +223,6 @@
                     </view>
                     <connections>
                         <outlet property="result" destination="1OS-HZ-y3v" id="rDp-6c-Zfx"/>
-                        <outlet property="result2" destination="8bC-Xf-vdC" id="q6S-WV-ndK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

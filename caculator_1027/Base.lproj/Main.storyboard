@@ -17,16 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1OS-HZ-y3v">
-                                <rect key="frame" x="51" y="81" width="259" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lm5-D6-Csx">
-                                <rect key="frame" x="51" y="199" width="30" height="30"/>
+                                <rect key="frame" x="51" y="258" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.77402130830953975" blue="0.74557764631033641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472760000001" blue="0.54291882690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -36,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWd-Ud-veA">
-                                <rect key="frame" x="128" y="199" width="30" height="30"/>
+                                <rect key="frame" x="130" y="258" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.82202017737004773" blue="0.76749567800534302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472760000001" blue="0.54291882690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -46,7 +38,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwV-67-gnZ">
-                                <rect key="frame" x="51" y="260" width="30" height="30"/>
+                                <rect key="frame" x="51" y="332" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.8878711368777592" blue="0.78853720548530071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472760000001" blue="0.54291882690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -56,7 +48,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qx-v0-UZb">
-                                <rect key="frame" x="128" y="260" width="30" height="30"/>
+                                <rect key="frame" x="130" y="332" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.84318422153047246" blue="0.66521428617984713" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472760000001" blue="0.54291882690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -66,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Om8-SR-zX9">
-                                <rect key="frame" x="128" y="380" width="30" height="30"/>
+                                <rect key="frame" x="130" y="468" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.8389571001395294" blue="0.77602948321455578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472760000001" blue="0.54291882690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -76,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ff-pJ-un4">
-                                <rect key="frame" x="202" y="318" width="30" height="30"/>
+                                <rect key="frame" x="202" y="409" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.86786307830713694" blue="0.79267144249079791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472763639262" blue="0.5429188269239047" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -86,7 +78,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xn-GE-VUF">
-                                <rect key="frame" x="128" y="318" width="30" height="30"/>
+                                <rect key="frame" x="130" y="409" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.87079725828868115" blue="0.80203792065075286" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472760000001" blue="0.54291882690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -96,7 +88,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neY-bO-cn8">
-                                <rect key="frame" x="51" y="318" width="30" height="31"/>
+                                <rect key="frame" x="51" y="409" width="30" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.91489190284022859" blue="0.70095149455444727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472760000001" blue="0.54291882690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -106,7 +98,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoM-2Z-iAA">
-                                <rect key="frame" x="202" y="260" width="30" height="30"/>
+                                <rect key="frame" x="204" y="332" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.89777099715563058" blue="0.68364723158509677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472760000001" blue="0.54291882690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -116,50 +108,50 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqv-Fm-oPv">
-                                <rect key="frame" x="202" y="380" width="30" height="30"/>
+                                <rect key="frame" x="278" y="468" width="30" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="tintColor" red="0.20375951776649748" green="0.033575193528515374" blue="0.11969615969208855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="="/>
                                 <connections>
-                                    <action selector="buttonresult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ftl-Nz-Qek"/>
+                                    <action selector="equal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ahG-wA-qi2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qz5-bC-uya">
-                                <rect key="frame" x="274" y="260" width="30" height="30"/>
+                                <rect key="frame" x="274" y="408" width="34" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <color key="tintColor" red="0.20375951780000001" green="0.033575193529999998" blue="0.1196961597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="➖"/>
                                 <connections>
-                                    <action selector="buttonsub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6zt-Z8-7jq"/>
+                                    <action selector="minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ffb-0h-ZKV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGC-08-nUU">
-                                <rect key="frame" x="274" y="199" width="30" height="30"/>
+                                <rect key="frame" x="274" y="327" width="34" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="tintColor" red="0.20375951780000001" green="0.033575193529999998" blue="0.1196961597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="➕"/>
                                 <connections>
-                                    <action selector="buttonadd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4O-KA-NgU"/>
+                                    <action selector="plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cyn-FP-o6X"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Zl-oG-HmO">
-                                <rect key="frame" x="274" y="142" width="30" height="30"/>
+                                <rect key="frame" x="51" y="195" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <color key="tintColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="AC"/>
                                 <connections>
-                                    <action selector="buttonAC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gpu-Aj-Vu6"/>
+                                    <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1wb-H5-SSq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18c-qg-pTg">
-                                <rect key="frame" x="202" y="199" width="30" height="30"/>
+                                <rect key="frame" x="204" y="258" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.85310902297688129" blue="0.77334750863671797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.43698472760000001" blue="0.54291882690000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -169,35 +161,35 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mbq-Wb-uQb">
-                                <rect key="frame" x="274" y="317" width="30" height="32"/>
+                                <rect key="frame" x="274" y="251" width="34" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="tintColor" red="0.20375951780000001" green="0.033575193529999998" blue="0.1196961597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="✖️"/>
                                 <connections>
-                                    <action selector="buttondiv:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ciO-8d-FcR"/>
+                                    <action selector="multiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hoC-Fw-vld"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAb-S1-qaR">
-                                <rect key="frame" x="274" y="382" width="30" height="28"/>
+                                <rect key="frame" x="274" y="195" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <color key="tintColor" red="0.20375951780000001" green="0.033575193529999998" blue="0.1196961597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="➗"/>
                                 <connections>
-                                    <action selector="buttonmul:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vhp-o8-h2w"/>
+                                    <action selector="divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N7a-Gv-rx4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VzO-zM-PTO">
-                                <rect key="frame" x="51" y="380" width="30" height="30"/>
+                                <rect key="frame" x="211" y="468" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <color key="tintColor" red="0.20375951780000001" green="0.033575193529999998" blue="0.1196961597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="."/>
                                 <connections>
-                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UpG-dq-sw9"/>
+                                    <action selector="dot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eeJ-hZ-Ycl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIu-K4-M1t">
@@ -205,29 +197,68 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="💗"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxf-d7-6sc">
-                                <rect key="frame" x="202" y="142" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ec-sy-RP5">
+                                <rect key="frame" x="204" y="195" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="%">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonhundred:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LGA-Ex-1u7"/>
+                                    <action selector="percent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0bb-1o-afp"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fiz-7Z-abp">
+                                <rect key="frame" x="112" y="195" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="+/-"/>
+                                <connections>
+                                    <action selector="change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sXA-h8-p5h"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aPB-hw-gjM">
+                                <rect key="frame" x="51" y="126" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T2A-Zi-16X">
+                                <rect key="frame" x="211" y="126" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="equal:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="vCN-a4-obv"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drU-RY-0rx">
+                                <rect key="frame" x="51" y="69" width="257" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.79543921299999998" blue="0.832040683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="result" destination="1OS-HZ-y3v" id="rDp-6c-Zfx"/>
+                        <outlet property="result" destination="drU-RY-0rx" id="idV-16-rEu"/>
+                        <outlet property="result1" destination="aPB-hw-gjM" id="nPq-I9-4fv"/>
+                        <outlet property="result2" destination="T2A-Zi-16X" id="jzI-yn-mpg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-196" y="-271.21439280359823"/>
+            <point key="canvasLocation" x="-85.599999999999994" y="-276.61169415292358"/>
         </scene>
     </scenes>
 </document>
